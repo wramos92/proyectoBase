@@ -2,7 +2,22 @@
 <html>
   <head>
     <title><%= title %></title>
+
     <link rel='stylesheet' href='/stylesheets/style.css' />
+<table border ="2" width="60%">
+	<tr>
+
+   <th>tipo</th>
+   <th>observacion</th>
+   <th>reclamo</th>
+ </tr>
+ <tr>
+ 	<td align="center"><%=reclamo.tipo %></td>
+ 	<td align="center"><%=reclamo.observacion %></td>
+    <td align="center"><%=reclamo.reclamo %></td>
+ </tr>
+</table>
+
   </head>
   <body>
     <h1><%= title %></h1>
